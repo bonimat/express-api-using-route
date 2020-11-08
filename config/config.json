@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "appuser",
+    "password": "password",
+    "database": "appdb",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "appuser",
+    "password": "password",
+    "database": "appdbt",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "appuser",
+    "password": "password",
+    "database": "appdbp",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
+

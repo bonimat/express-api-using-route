@@ -1,0 +1,30 @@
+POST http://localhost:3000/api/users
+content-type: application/json
+
+{
+  "firstName": "Jane",
+  "lastName": "Smith",
+  "email": "jane@smith.com",
+  "password": "123456789"
+}
+###
+GET http://localhost:3000/api/users
+
+###
+GET http://localhost:3000/api/users/1
+
+###
+PUT http://localhost:3000/api/users/3
+content-type: application/json
+
+{
+    "firstName": "John",
+    "lastName": "Smith",
+    "email": "john.smith@smith.com",
+    "password": "superPass1"
+}
+
+### 
+DELETE http://localhost:3000/api/users/5
+
+###
